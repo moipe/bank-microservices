@@ -1,0 +1,28 @@
+version: "3.9"
+
+services:
+
+  mdb-1:
+    image: mongo:latest
+    ports:
+      - "2021:27017"
+
+  mdb-2:
+    image: mongo:latest
+    ports:
+      - "2022:27017"
+
+  mdb-3:
+    image: mongo:latest
+    ports:
+      - "2023:27017"
+
+  mdb-4:
+    image: mongo:latest
+    ports:
+      - "2024:27017"
+
+  mdb-5:
+    image: mongo:latest
+    ports:
+      - "2025:27017"
